@@ -1,0 +1,74 @@
+@charset "UTF-8";
+body{background: url("../images/login.jpg");   <!--./表示当前目录   ../表示父级目录 -->
+			background-repeat:no-repeat;
+			
+             }
+
+
+#val{
+	margin:0 auto;
+    width:600px;
+    height: 430px;
+    top: 140px;
+    left: 450px;
+    font-size:25px;
+    position: absolute;
+    border-radius: 15px;
+    background: rgba(216,216,216,0.5);      /*设置form表单透明度*/
+    overflow: hidden; /*溢出部分隐藏*/
+    }
+    #val1{
+  
+    	width:410px;
+	  	height:200px;  
+	  	margin:0 auto;
+	  
+	  	padding-top: 50px;	
+	  	padding-left: 35px;
+		padding-right: 20px;
+		font-size:18px;
+    }
+     #val1 input{
+		
+		margin-top:1px;
+		margin-bottom:20px;
+		margin-left: 40px;
+		outline:none;       /*outline （轮廓）是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用。*/
+		border:1px solid rgba(0,0,0,.49);       /*输入框边框的大小，实线，rgba（red,green,blue,a为透明度）,透明度处于0-1之间*/
+		
+		background:rgba(216,216,216,0.4) ;
+		border-radius:6px;      /*对输入框进行圆角*/
+		padding:7px;  /*输入框中光标位置*/
+     }
+    #val input[type="text"]:focus,input[type="password"]:focus{
+    -webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;     /*对边框颜色的逐步过渡高亮显示，后面是对阴影的逐步过渡*/
+    border-color:rgba(255,128,0,.75);
+    
+    }
+        
+
+      #val a{
+	  	text-decoration:none;
+	  }
+	  
+	  #val a:hover{
+	  
+	  	color:red;
+	  }
+	  
+		
+
+		#val button{
+		height: 40px;
+		width: 300px;
+		margin-left: 135px;
+		border:none;     /*边框消失*/
+		cursor:pointer;     /*手型当鼠标移动到按钮上指针变成手型*/
+	    background: gold;
+		font-size: 24px;     /*设置字体大小*/
+
+}
+#tip{
+			float: right;
+			font-size: 25px;			
+		}

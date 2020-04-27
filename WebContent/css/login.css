@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body{background: url("../images/login.jpg");   <!--./表示当前目录   ../表示父级目录 -->
+			background-repeat:no-repeat;}
+#val{
+	  	width:410px;
+	  	height:290px;
+	  border-style:dotted;
+	  
+	  	margin:200px auto;
+	  	padding-top: 20px;	
+	  	padding-left: 20px;
+		padding-right: 20px;
+		font-size:18px;
+
+	  }
+	  #val a{
+	  	text-decoration:none;
+	
+	  }
+	  #val a:hover{
+	  	color:red;
+	  }
+	  #val table {
+		height:120px;
+			width: 300px;
+			margin-top:30px;
+			margin-bottom:30px;
+			margin-left: 50px;
+			
+			
+		}
+		
+
+		#val button{
+		height: 40px;
+			width: 300px;
+			margin-left: 40px;
+			border:none;     /*边框消失*/
+		   cursor:pointer;     /*手型当鼠标移动到按钮上指针变成手型*/
+			background: gold;
+			font-size: 24px;     /*设置字体大小*/
+
+}
+#tip{
+			float: right;
+			font-size: 18px;			
+		}

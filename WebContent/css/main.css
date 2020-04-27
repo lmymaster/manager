@@ -1,0 +1,65 @@
+@charset "UTF-8";
+body{
+    background: url("../images/login.jpg");
+    background-repeat:no-repeat;
+
+	}
+	
+
+#top{
+	width: 900px;
+	height:100px;
+
+ 
+}
+#top1{
+	width:300px;
+	height:100px;
+	float:left;
+}
+#top2{
+	width:300px;
+	height:100px;
+	float:right;
+	line-height: 100px; 
+	font-size:20px;
+}
+
+#nav{
+	width: 1000px;
+	height:40px;
+border:solid 1px green;
+background: #cccfff;
+
+}
+#nav li {
+     float:left;
+   list-style: none; 
+}
+
+#nav li a{
+	color:white;   /*字体为白色*/
+	padding-left: 10px; 
+	line-height: 20px;
+	text-decoration: none;
+}
+#nav ul li a:hover{
+	color: red;        /*当鼠标移动到字体上变色*/
+
+}
+#wel {
+	width:200px;
+	height:40px;
+	float:right;
+}
+#article{
+	width: 900px;
+	height:500px;
+
+}
+#footer{
+	font-family: arial;
+	font-size:12px;
+	text-align: center;
+	line-height: 40px;
+}
